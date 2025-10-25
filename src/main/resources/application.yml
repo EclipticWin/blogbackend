@@ -1,0 +1,20 @@
+spring:
+  config:
+    import: optional:file:.env[.properties]
+
+  application:
+    name: blogbackend
+
+  datasource:
+    url: jdbc:postgresql://${BLOG_DB_HOST}:${BLOG_DB_PORT}/${BLOG_DB_NAME}
+    username: ${BLOG_DB_USERNAME}
+    password: ${BLOG_DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update    # 자동 테이블 생성/갱신 (개발용)
+    show-sql: true        # 실행된 SQL 콘솔 출력
+    properties:
+      hibernate:
+        format_sql: true  # SQL 예쁘게 출력
