@@ -4,8 +4,8 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": -353,
-    "scrollLeft": 0,
+    "scrollTop": -269,
+    "scrollLeft": -168,
     "zoomLevel": 1,
     "show": 431,
     "database": 4,
@@ -182,21 +182,20 @@
         "comment": "게시글 파일",
         "columnIds": [
           "nUFQXVu7zY0hksqbC0cNY",
-          "lzHUIMZAwNz2zpLeL6Xfa",
+          "7fJmStls6oiGG81YFDDW6",
           "7bloJKqTPSybE3jha_OTw",
           "-IR7yx_g2TDAG0Yf_jrv6",
           "FQDv69FycVncWZmXQE1Zl",
-          "KmN_DclFsaTFtBKp4SSCo",
-          "7fJmStls6oiGG81YFDDW6"
+          "KmN_DclFsaTFtBKp4SSCo"
         ],
         "seqColumnIds": [
           "nUFQXVu7zY0hksqbC0cNY",
+          "7fJmStls6oiGG81YFDDW6",
           "lzHUIMZAwNz2zpLeL6Xfa",
           "7bloJKqTPSybE3jha_OTw",
           "-IR7yx_g2TDAG0Yf_jrv6",
           "FQDv69FycVncWZmXQE1Zl",
-          "KmN_DclFsaTFtBKp4SSCo",
-          "7fJmStls6oiGG81YFDDW6"
+          "KmN_DclFsaTFtBKp4SSCo"
         ],
         "ui": {
           "x": 762,
@@ -207,7 +206,7 @@
           "color": ""
         },
         "meta": {
-          "updateAt": 1761132367755,
+          "updateAt": 1761639278704,
           "createAt": 1761132232387
         }
       },
@@ -251,12 +250,14 @@
           "3LiwfSzQ_YSQ4uIb700tZ",
           "9PyQb8rCQ6vpLxC_54Pv3",
           "W4TCnfKY1p31gNk_20GOB",
+          "na6zqI0I4O_9utlt87JDM",
           "kNdgdw4kn838vp8RnBfND"
         ],
         "seqColumnIds": [
           "3LiwfSzQ_YSQ4uIb700tZ",
           "9PyQb8rCQ6vpLxC_54Pv3",
           "W4TCnfKY1p31gNk_20GOB",
+          "na6zqI0I4O_9utlt87JDM",
           "kNdgdw4kn838vp8RnBfND"
         ],
         "ui": {
@@ -268,7 +269,7 @@
           "color": ""
         },
         "meta": {
-          "updateAt": 1761132444013,
+          "updateAt": 1761663906967,
           "createAt": 1761132408954
         }
       },
@@ -614,7 +615,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1761132275000,
+          "updateAt": 1761663899180,
           "createAt": 1761131836456
         }
       },
@@ -1021,20 +1022,20 @@
       "7fJmStls6oiGG81YFDDW6": {
         "id": "7fJmStls6oiGG81YFDDW6",
         "tableId": "02oSOgBevPWjlnMN0LDaF",
-        "name": "id",
-        "comment": "번호",
+        "name": "article_id",
+        "comment": "게시글 번호",
         "dataType": "INT",
         "default": "",
         "options": 8,
         "ui": {
           "keys": 2,
           "widthName": 60,
-          "widthComment": 60,
+          "widthComment": 65,
           "widthDataType": 60,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1761132367252,
+          "updateAt": 1761639275166,
           "createAt": 1761132367252
         }
       },
@@ -1557,6 +1558,26 @@
           "updateAt": 1761574931316,
           "createAt": 1761574918459
         }
+      },
+      "na6zqI0I4O_9utlt87JDM": {
+        "id": "na6zqI0I4O_9utlt87JDM",
+        "tableId": "JAwrucqBmb4WifZrbyTOL",
+        "name": "is_deleted",
+        "comment": "삭제 여부",
+        "dataType": "VARCHAR(1)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 68,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1761663901832,
+          "createAt": 1761663883114
+        }
       }
     },
     "relationshipEntities": {
@@ -1655,7 +1676,7 @@
             "3LiwfSzQ_YSQ4uIb700tZ"
           ],
           "x": 312.5,
-          "y": 626,
+          "y": 650,
           "direction": 8
         },
         "end": {
