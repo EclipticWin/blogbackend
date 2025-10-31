@@ -4,8 +4,8 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": -269,
-    "scrollLeft": -168,
+    "scrollTop": -286,
+    "scrollLeft": 0,
     "zoomLevel": 1,
     "show": 431,
     "database": 4,
@@ -324,7 +324,7 @@
         "tableId": "aMcx1a6bD_b9QlkM3NouX",
         "name": "id",
         "comment": "번호",
-        "dataType": "INT",
+        "dataType": "BIGINT",
         "default": "",
         "options": 10,
         "ui": {
@@ -335,7 +335,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1761131668844,
+          "updateAt": 1761824368933,
           "createAt": 1761131419375
         }
       },
@@ -504,7 +504,7 @@
         "tableId": "jm-AT7zFOmSeMFwITNuIY",
         "name": "id",
         "comment": "번호",
-        "dataType": "INT",
+        "dataType": "BIGINT",
         "default": "",
         "options": 10,
         "ui": {
@@ -515,7 +515,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1761131959256,
+          "updateAt": 1761824374684,
           "createAt": 1761131835040
         }
       },
@@ -664,7 +664,7 @@
         "tableId": "jm-AT7zFOmSeMFwITNuIY",
         "name": "admin_id",
         "comment": "관리자 번호",
-        "dataType": "INT",
+        "dataType": "BIGINT",
         "default": "",
         "options": 8,
         "ui": {
@@ -675,7 +675,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1761574481640,
+          "updateAt": 1761824368934,
           "createAt": 1761131922391
         }
       },
@@ -684,7 +684,7 @@
         "tableId": "p5akzaJsixmjdYNQKLEL7",
         "name": "id",
         "comment": "번호",
-        "dataType": "INT",
+        "dataType": "BIGINT",
         "default": "",
         "options": 10,
         "ui": {
@@ -695,7 +695,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1761574904373,
+          "updateAt": 1761824377251,
           "createAt": 1761132074488
         }
       },
@@ -804,7 +804,7 @@
         "tableId": "p5akzaJsixmjdYNQKLEL7",
         "name": "article_id",
         "comment": "게시글 번호",
-        "dataType": "INT",
+        "dataType": "BIGINT",
         "default": "",
         "options": 8,
         "ui": {
@@ -815,7 +815,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1761132118612,
+          "updateAt": 1761824374684,
           "createAt": 1761132103357
         }
       },
@@ -904,7 +904,7 @@
         "tableId": "02oSOgBevPWjlnMN0LDaF",
         "name": "id",
         "comment": "번호",
-        "dataType": "INT",
+        "dataType": "BIGINT",
         "default": "",
         "options": 10,
         "ui": {
@@ -915,7 +915,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1761132263763,
+          "updateAt": 1761824383395,
           "createAt": 1761132251683
         }
       },
@@ -1024,7 +1024,7 @@
         "tableId": "02oSOgBevPWjlnMN0LDaF",
         "name": "article_id",
         "comment": "게시글 번호",
-        "dataType": "INT",
+        "dataType": "BIGINT",
         "default": "",
         "options": 8,
         "ui": {
@@ -1035,7 +1035,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1761639275166,
+          "updateAt": 1761824374684,
           "createAt": 1761132367252
         }
       },
@@ -1044,7 +1044,7 @@
         "tableId": "rsxj4toFusCSnNvP5qtGm",
         "name": "id",
         "comment": "번호",
-        "dataType": "INT",
+        "dataType": "BIGINT",
         "default": "",
         "options": 10,
         "ui": {
@@ -1055,7 +1055,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1761132401857,
+          "updateAt": 1761824387059,
           "createAt": 1761132386393
         }
       },
@@ -1144,7 +1144,7 @@
         "tableId": "JAwrucqBmb4WifZrbyTOL",
         "name": "id",
         "comment": "번호",
-        "dataType": "INT",
+        "dataType": "BIGINT",
         "default": "",
         "options": 10,
         "ui": {
@@ -1155,7 +1155,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1761132567836,
+          "updateAt": 1761824388949,
           "createAt": 1761132422309
         }
       },
@@ -1224,7 +1224,7 @@
         "tableId": "rsxj4toFusCSnNvP5qtGm",
         "name": "category_id",
         "comment": "카테고리 번호",
-        "dataType": "INT",
+        "dataType": "BIGINT",
         "default": "",
         "options": 8,
         "ui": {
@@ -1235,7 +1235,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1761132567836,
+          "updateAt": 1761824388949,
           "createAt": 1761132520108
         }
       },
@@ -1244,7 +1244,7 @@
         "tableId": "rsxj4toFusCSnNvP5qtGm",
         "name": "article_id",
         "comment": "게시글 번호",
-        "dataType": "INT",
+        "dataType": "BIGINT",
         "default": "",
         "options": 8,
         "ui": {
@@ -1255,7 +1255,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1761132562506,
+          "updateAt": 1761824374684,
           "createAt": 1761132549576
         }
       },
@@ -1304,7 +1304,7 @@
         "tableId": "uaImCbzRpI1HU4eRjuF7G",
         "name": "id",
         "comment": "번호",
-        "dataType": "INT",
+        "dataType": "BIGINT",
         "default": "",
         "options": 10,
         "ui": {
@@ -1315,7 +1315,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1761574601828,
+          "updateAt": 1761824381372,
           "createAt": 1761574570564
         }
       },
@@ -1544,7 +1544,7 @@
         "tableId": "uaImCbzRpI1HU4eRjuF7G",
         "name": "comment_id",
         "comment": "댓글 번호",
-        "dataType": "INT",
+        "dataType": "BIGINT",
         "default": "",
         "options": 8,
         "ui": {
@@ -1555,7 +1555,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1761574931316,
+          "updateAt": 1761824377251,
           "createAt": 1761574918459
         }
       },
